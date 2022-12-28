@@ -22,6 +22,11 @@ First be sure to set the correct version of NodeJS.
 
 ```shell
 nvm use 8.14.0
+
+# NOTE: If you've got the .nvmrc file, you can 
+# just use this and it will set the version based 
+# on what version is in the file.
+nvm use
 ```
 
 Then you can use node to run your code.
