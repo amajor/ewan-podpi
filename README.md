@@ -31,6 +31,24 @@ Then you can use node to run your code.
 node led.js
 ```
 
+### Create .nvmrc file
+
+To create the correct .nvmrc file...
+
+```shell
+# Set the correct version
+nvm use 8.14.0
+
+# Save to .nvmrc
+node -v > .nvmrc
+```
+
+Now you can set the correct version by just running the following:
+
+```shell
+nvm use
+```
+
 ### Troubleshooting
 
 When getting an error about a library not installed...
